@@ -70,3 +70,72 @@ iframe{
 	width: 100%;
 	height: 100%;
 }
+
+
+@media (max-device-width: 1300px) {
+	h1{
+		font-family: 'Alte Haas Grotesk'; 
+		font-style: regular; font-weight: 500;
+		top: 0;
+		bottom: 0;
+		font-size: 0.95vw;
+		letter-spacing: 0.11vw;
+		margin: 0px;
+		color: #000000;
+	}
+}
+@media (max-device-width: 1300px) {
+	.left{
+	position: fixed;
+	height: 100%;
+	width: 80%;
+	top: 0;
+	left: 0;
+	padding: 7vmin;
+	display: none;
+	}
+}
+@media (max-device-width: 1300px) {
+	.right{
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	top: 0;
+	right: 0;
+	border-left: solid 0.12vmin #000000;
+	padding-left: 2vw;
+	padding-bottom: 2vw;
+	display: flex;
+    justify-content: left;
+    align-items: flex-end;
+	background-color: #CFC6AA;
+	display: none;
+	}
+}
+.center {
+	width: 80%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	display: none;
+}
+@media (max-device-width: 1300px) {
+  .center {
+	width: 80%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	}
+}
