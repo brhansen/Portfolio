@@ -74,14 +74,15 @@ iframe{
 
 @media (max-device-width: 1300px) {
 	h1{
-		font-family: 'Alte Haas Grotesk'; 
-		font-style: regular; font-weight: 500;
-		top: 0;
-		bottom: 0;
-		font-size: 0.95vw;
-		letter-spacing: 0.11vw;
-		margin: 0px;
-		color: #000000;
+	font-family: 'Alte Haas Grotesk'; 
+	font-style: regular; font-weight: 500;
+	top: 0;
+	bottom: 0;
+	font-size: 5vw;
+	letter-spacing: 0.5vw;
+	line-height: 10vw;
+	margin: 0px;
+	color: #000000;
 	}
 }
 @media (max-device-width: 1300px) {
